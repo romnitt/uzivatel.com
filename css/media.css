@@ -1,0 +1,84 @@
+
+/* iPad */
+
+@media (min-width: 768px) {
+
+	.wrap {
+
+		display: block;
+		margin: 0 auto;
+		padding: 0 2em;
+	}
+
+	.how {
+
+		width: 100%;
+	}
+
+	.how-item {
+
+		display: block;
+		width: 50%;
+		height: 200px;
+		float: left;
+
+		text-align: left;
+	}
+
+	.how-img {
+
+		display: block;
+		width: 50%;
+		height: 200px;
+		float: left;
+
+		background-color: #ccc;
+	}
+
+	.services-item {
+
+		display: block;
+		float: left;
+		width: 33.33%;
+	}
+
+
+	.info-item {
+
+		display: block;
+		float: left;
+		width: 33.33%;
+	}
+}
+
+
+/* Desktop */
+
+@media (min-width: 800px) {
+
+	.wrap {
+
+		max-width: 1200px;
+
+		display: block;
+		margin: 0 auto;
+	}
+
+
+/*	.how-item {
+
+		float: left;
+		width: 33.33%;
+
+		text-align: center;
+	}
+
+	.how-img {
+
+		display: none;
+	}*/
+
+}
+
+
+

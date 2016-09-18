@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900&subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="css/slideout.css">
+    <link rel="stylesheet" type="text/css" href="css/accordion.css">
+
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tabslet.min.js"></script>
+
+	<!--[if lt IE 9]>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+
+	<![endif]-->
+
+	<title>Vydělejte si v uživatelském výzkumu | Uzivatel.com</title>
+
+</head>
+
+<body>
+    
+    <nav id="menu" class="menu slideout-menu">
+        
+        <ul>
+            <li><a href="#">Uvod</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Stante se respondentem</a></li>
+        </ul>    
+    
+    </nav>
+    
+    <main id="panel" class="panel slideout-panel">
+        
+        <header>
+
+            <a href="#" class="logo"></a>
+            <a href="#" class="nav-toggle toggle-button"></a>
+
+        </header>
+        
+        
+        
+        
+
+        <section class="wrap no-hero">
+            
+            <h1>Forms n' shit</h1>
+
+            <form action="" method="post">
+                
+                
+                <!-- Text -->
+
+                <label class="text" for="client_name">Kontaktní osoba</label>
+                <input type="text" class="text" id="client_name" name="client_name" />
+                    
+                
+                
+                
+                <!-- E-mail -->
+
+                <label class="text" for="email">E&#8209;mail</label>
+                <input type="text" class="text" id="email" name="email" />
+                    
+                
+                
+                
+                <!-- Select -->
+                <div class="select-wrap">
+                
+                    <label class="text">Vyber si</label>
+                    <select class="select">
+                    
+                        <option>Text select</option>
+                        <option>Option</option>
+                        <option>Option</option>  
+                    
+                    </select>
+                    <div class="select_arrow"></div>
+                    
+                </div>
+                
+                
+                
+                <!-- Spinner -->
+                
+                <div class="spinner-wrap cf">
+                    
+                    <label class="text">Kolik</label>
+                    
+                    <!-- Minus button -->
+                    <button type="button" class="spinner-button btn-number"  data-type="minus" data-field="meno-inputu">-</button>
+
+                    <!-- Ciselny input -->
+                    <input type="text" name="meno-inputu" class="spinner-input input-number" value="5" min="5" max="19">
+
+                    <!-- Plus button -->
+                    <button type="button" class="spinner-button btn-number" data-type="plus" data-field="meno-inputu">+</button>
+                    
+                    <p class="form-caption">Minimalni pocet je 5 respondentu</p>
+          
+   
+                
+                </div>
+                
+                
+                
+                
+                
+                
+                <!-- Checkboxy ---------------------->
+                
+                <!-- Prvy checkbox -->
+                <label class="control control--checkbox">First checkbox
+
+                    <input type="checkbox" checked="checked" />
+                    <div class="control__indicator"></div>
+
+                </label>
+
+
+                <!-- Druhy checkbox -->
+                <label class="control control--checkbox">Second checkbox
+
+                    <input type="checkbox"/>
+                    <div class="control__indicator"></div>
+
+                </label>
+
+
+                <!-- Treti checkbox -->
+                <label class="control control--checkbox">Disabled
+
+                    <input type="checkbox" disabled="disabled" />
+                    <div class="control__indicator"></div>
+
+                </label>
+
+
+                <!-- Stvrty checkbox -->
+                <label class="control control--checkbox">Disabled &amp; checked
+
+                    <input type="checkbox" disabled="disabled" checked="checked" />
+                    <div class="control__indicator"></div>
+
+                </label>    
+                
+                
+                
+                
+                <!-- Radios ---------------------->
+                
+                <!-- Prvy radio -->
+                <label class="control control--radio">First radio
+
+                    <input type="radio" name="radio" checked="checked" />
+                    <div class="control__indicator"></div>
+
+                </label>
+
+
+                <!-- Druhy radio -->
+                <label class="control control--radio">Second radio
+
+                    <input type="radio" name="radio"/>
+                    <div class="control__indicator"></div>
+
+                </label>
+
+
+                <!-- Treti radio -->
+                <label class="control control--radio">Disabled
+
+                    <input type="radio" name="radio2" disabled="disabled" />
+                    <div class="control__indicator"></div>
+
+                </label>
+
+
+                <!-- Stvrty radio -->
+                <label class="control control--radio">Disabled &amp; checked
+
+                    <input type="radio" name="radio2" disabled="disabled" checked="checked" />
+                    <div class="control__indicator"></div>
+
+                </label>
+                
+                
+                
+                
+                
+                <button type="submit" class="button pink light">Buyakasha</button>
+ 
+            
+            </form>
+            
+            
+        </section>
+    
+        
+            
+        <!--  
+        <section class="footer">
+            
+            
+            <div class="mail-icon graf"></div>
+
+            <h3><a href="#">ahoj@uzivatel.com</a></h3>
+            <h3><a href="#">+420 775 146 726</a></h3>
+
+            <a href="#">Fakturační údaje</a>
+
+
+        </section>
+        -->
+        
+    </main>
+
+
+    
+
+
+    
+    
+
+ 
+    
+    
+    <!-- Spinner -->
+    
+    <script>
+
+        $( document ).ready(function() {
+          $('.btn-number').click(function(e){
+              e.preventDefault();
+
+              var fieldName = $(this).attr('data-field');
+              var type      = $(this).attr('data-type');
+              var input = $("input[name='"+fieldName+"']");
+              var currentVal = parseInt(input.val());
+              if (!isNaN(currentVal)) {
+                  if(type == 'minus') {
+                      var minValue = parseInt(input.attr('min'));
+                      if(!minValue) minValue = 1;
+                      if(currentVal > minValue) {
+                          input.val(currentVal - 1).change();
+                      }
+                      if(parseInt(input.val()) == minValue) {
+                          $(this).attr('disabled', true);
+                      }
+
+                  } else if(type == 'plus') {
+                      var maxValue = parseInt(input.attr('max'));
+                      if(!maxValue) maxValue = 9999999999999;
+                      if(currentVal < maxValue) {
+                          input.val(currentVal + 1).change();
+                      }
+                      if(parseInt(input.val()) == maxValue) {
+                          $(this).attr('disabled', true);
+                      }
+
+                  }
+              } else {
+                  input.val(0);
+              }
+          });
+          $('.input-number').focusin(function(){
+             $(this).data('oldValue', $(this).val());
+          });
+          $('.input-number').change(function() {
+
+              var minValue =  parseInt($(this).attr('min'));
+              var maxValue =  parseInt($(this).attr('max'));
+              if(!minValue) minValue = 1;
+              if(!maxValue) maxValue = 9999999999999;
+              var valueCurrent = parseInt($(this).val());
+
+              var name = $(this).attr('name');
+              if(valueCurrent >= minValue) {
+                  $(".btn-number[data-type='minus'][data-field='"+name+"']").removeAttr('disabled')
+              } else {
+                  alert('Sorry, the minimum value was reached');
+                  $(this).val($(this).data('oldValue'));
+              }
+              if(valueCurrent <= maxValue) {
+                  $(".btn-number[data-type='plus'][data-field='"+name+"']").removeAttr('disabled')
+              } else {
+                  alert('Sorry, the maximum value was reached');
+                  $(this).val($(this).data('oldValue'));
+              }
+
+
+          });
+          $(".input-number").keydown(function (e) {
+                  // Allow: backspace, delete, tab, escape, enter and .
+                  if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||
+                       // Allow: Ctrl+A
+                      (e.keyCode == 65 && e.ctrlKey === true) ||
+                       // Allow: home, end, left, right
+                      (e.keyCode >= 35 && e.keyCode <= 39)) {
+                           // let it happen, don't do anything
+                           return;
+                  }
+                  // Ensure that it is a number and stop the keypress
+                  if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+                      e.preventDefault();
+                  }
+          });
+        });
+
+    </script>
+    
+    
+
+</body>
+</html>
